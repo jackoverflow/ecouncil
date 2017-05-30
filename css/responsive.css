@@ -1,0 +1,158 @@
+/*small screens*/
+@media screen and (max-width: 40em) { 
+  h1.logo {
+    margin-top: 0;
+    padding: 10px 0 0 10px;
+  }
+  h1.logo a {    
+    background-size: contain;    
+    height: 35px;
+    width: 150px;
+  }
+  section h2 {
+    width: 100%!important;
+    font-size: 48px;
+    margin-top: 18px;
+  }
+  section p {
+    font-size: 14px;
+  }
+  .section1 h2 {
+    font-size: 28px;
+  }
+  .section2 .title-container {
+    width: 100%!important;
+  }
+  .section4 .faq-about p {
+    width: 100%!important;
+  }
+  .section-five h2 {
+    font-size: 28px;
+  }
+  .full-faq-info p {
+    width: 100%;
+  }
+    .section4 a.havequestions {
+        width: 90%;
+    }
+
+    .section7 .signupfree-content {
+        width: 100%;
+    }
+    .section7 .signupfree-info p {
+        width: 80%;
+    }
+    .section8 form#need-more {
+        width: 90%;
+    }
+    .section8 .needmore-info {
+        width: 90%;
+    }
+
+    .section3 .circle,
+    .section2 .circle {
+        height: 100px;
+        width: 100px;
+    }
+    .section1 .top-menu {
+        display: none;
+    }
+    .section2 .circle-container h3, .section3 h3,
+    .section4 .faq h3  {
+      font-size: 24px;
+    }
+    footer {
+      height: 80px;
+      padding-left: 5px;
+    }
+    footer p {
+      font-size: 14px;
+      text-align: left;
+      margin: 0;
+      padding-left: 5px;
+      width: 80%;
+    }
+    footer .fa-linkedin {
+      font-size: 24px;
+    }  
+}
+@media screen and (orientation: portrait) { 
+  .fbt-circle {
+      width: 100%;
+  }
+}
+
+@media only screen and (min-width: 40em) and (min-width: 600px) and (max-width: 800px) and (orientation: portrait) {  
+  .fbt-circle {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 40em) and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) {  
+  .fbt-circle {    
+    width: 50%;
+  }
+}
+
+/* ipad portrait */
+@media only screen and (min-width: 40em) and (orientation:portrait) {
+  .why-us {
+    width: 100%;
+    overflow: auto;
+  }
+  .why-us .circle {
+    width: 155px;
+    height: 155px;
+    float: left;    
+  }
+  .whyus-info {    
+    float: right;
+    width: 75%;
+    text-align: left;
+  }
+  .fbt-circle {
+    width: 50%!important;
+    margin-bottom: 20px;
+  }
+  .fbt-circle .circle-container {
+    min-width:0;
+    width: auto;
+  }
+  .fbt-circle .circle-container .circle {
+    float: left;
+    margin-right: 10px;
+    margin: 0 auto 20px auto!important;
+    width: 100px;
+    height: 100px;
+  }
+  .fbt-circle .circle-container .circle-info {
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+  }
+  .section3 h2 {
+    margin-bottom: 30px;
+  }
+}
+
+/*ipad pro*/
+@media only screen and (min-width: 40em) and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {  
+  .fbt-circle {
+    width: 33.33333%!important;
+  }
+  .fbt-circle .circle-container .circle {
+    float: none;
+    margin-right: 0;
+  }
+  .fbt-circle .circle-container .circle-info {
+    text-align: center;    
+    min-width: 0;
+    margin: auto;
+    width: 100%;    
+  }  
+}
+@media only screen and (max-width: 320px) {
+    footer .fa-linkedin {
+      margin-top: 10%;
+    }  
+}

@@ -1,0 +1,13 @@
+To fix:
+  ✔ a gap between the menu and the side of the browser. And a gap between several background @done (16-12-06 13:06)
+  ✔ add the input field with dropdown menu for the sign up form @done (16-12-06 15:01)
+  ✔ The text and the social media in the footer should be that colour:#f37721 @done (16-12-06 09:18)
+  ✔ The text in the footer should be centred. @done (16-12-06 14:43)
+  ✔ The accordion in the FAQ doesn't follow the same style as what you have on zeplin, you can go on zeplin and copy the same css for the border and text title @done (16-12-06 11:16)
+  ☐  fix the background as some of them have the icons on one side only
+  ☐  fix the background as some of them have the icons on one side only
+  ☐  fix the background as some of them have the icons on one side only
+  ☐  fix the background as some of them have the icons on one side only
+  ✔ check on the "Ipad portrait view in zeplin and Mobile view to see how the layout changes. I am not using a 3 columns layout but 6 and 4. @done (16-12-06 14:43)
+  ✔ look at the text style on mobile, you have change some of them eg: titles @done (16-12-06 13:06)
+  ✔ make sure that your code doesn't break if people reduce their browser size @done (16-12-06 14:43)
